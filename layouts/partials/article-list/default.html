@@ -1,0 +1,10 @@
+{{ $image := partial "helper/image" (dict "Image" .Params.image "Resources" .Resources "Context" .) }}
+<article class="{{ if $image }}has-image{{ end }}">
+    {{ partial "article/components/header" (dict "Page" . "IsList" true) }}
+
+    {{ if .Summary }}
+    <section class="article-subtitle">
+        {{ .Summary  }}
+    </section>
+    {{ end }}
+</article>

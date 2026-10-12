@@ -1,0 +1,39 @@
+.article-title-wrapper .article-subtitle {
+    margin-top: 1rem;
+    margin-bottom: 0;  
+}
+.article-subtitle {
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+    padding-left: var(--card-padding);
+    padding-right: var(--card-padding);
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: var(--card-text-color-secondary);
+    opacity: 0.85;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.article-tags a {
+    background: #f0f0f0;
+    color: #333333;
+    border-radius: 4px;
+    padding: 0.2rem 0.6rem;
+    font-size: 1.3rem;
+    transition: all 0.2s ease;
+}
+
+.article-tags a:hover {
+    background: #e0e0e0;
+    color: #000000;
+}
+.article-subtitle p {
+    margin: 0 0 0.5em;
+}
+.article-subtitle p:last-child {
+    margin-bottom: 0;
+}

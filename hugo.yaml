@@ -1,0 +1,17 @@
+baseURL: http://localhost:1313/
+locale: zh-cn
+defaultContentLanguage: zh
+title: 裤子批发厂
+theme: hugo-theme-stack
+
+hasCJKLanguage: true
+
+params:
+  mainSections:
+    - post
+
+  article:
+    list:
+      showTags: true
+
+  customSCSS: ["scss/custom.scss"]
